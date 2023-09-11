@@ -14,3 +14,7 @@
 
 -- 3  (slide 82)
 -- update Students set group_id = 1 where student_id = 1;
+
+-- delete from Students where student_id > 3;
+
+delete from Groups;
