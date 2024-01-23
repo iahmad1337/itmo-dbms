@@ -1,0 +1,4 @@
+SELECT SessionId, COUNT(DISTINCT Letter) AS Opened
+FROM Runs
+GROUP BY SessionId
+ORDER BY Opened DESC

@@ -1,0 +1,5 @@
+MistakenTeams(TeamId) :-
+    Runs(SessionId, :Letter, Accepted, _, _),
+    Sessions(SessionId, :ContestId, TeamId, _),
+    ContestId = :ContestId, Letter = :Letter, Accepted = 0.
+
