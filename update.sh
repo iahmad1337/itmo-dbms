@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -eo
+set -e -o pipefail
 
 git pull
 echo "Pulled"
