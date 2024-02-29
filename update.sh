@@ -9,7 +9,7 @@ files=$(find . -name '*.sql' -or -name '*.ra' -or -name '*.datalog' -or -name '*
 
 git add $files
 git commit -a -m "[Autoupdate] $files"
-echo Commited changes to $files
+echo "Commited changes"
 
 git push
 echo "Changes uploaded"
